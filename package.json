@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Nucamp Git and Node basic learning project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJustinJRyan/git-test.git"
+  },
+  "author": "Justin Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrJustinJRyan/git-test/issues"
+  },
+  "homepage": "https://github.com/MrJustinJRyan/git-test#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "lite-server": "^2.2.2"
+  }
+}
